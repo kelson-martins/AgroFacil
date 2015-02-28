@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jTabbedPane1" min="-2" pref="574" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Cadastros">
+                <Property name="tabTitle" type="java.lang.String" value="Cadastros"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane5" alignment="0" pref="569" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane5" alignment="0" pref="459" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable5">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="2" rowCount="21">
+                        <Column editable="true" title="Transa&#xe7;&#xe3;o" type="java.lang.Object">
+                          <Data value="CAD001 "/>
+                          <Data value="CAD002"/>
+                          <Data value="CAD003"/>
+                          <Data value="CAD004"/>
+                          <Data value="CAD005"/>
+                          <Data value="CAD006"/>
+                          <Data value="CAD007"/>
+                          <Data value="CAD008"/>
+                          <Data value="CAD009"/>
+                          <Data value="CAD010"/>
+                          <Data value="CAD011"/>
+                          <Data value="CAD012"/>
+                          <Data value="CAD013"/>
+                          <Data value="CAD014"/>
+                          <Data value="CAD015"/>
+                          <Data value="CAD016"/>
+                          <Data value="CAD017"/>
+                          <Data value="CAD018"/>
+                          <Data value="CAD019"/>
+                          <Data value="CAD020"/>
+                          <Data value="CAD021"/>
+                        </Column>
+                        <Column editable="true" title="Descri&#xe7;&#xe3;o" type="java.lang.Object">
+                          <Data value="Manuten&#xe7;&#xe3;o de Espa&#xe7;amentos "/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Composi&#xe7;&#xf5;es"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Unidades de Medida"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Safras"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Frentes de Transporte"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Variedades"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Munic&#xed;pios"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Centros de Custo"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Unidades Industriais"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Opera&#xe7;&#xf5;es"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Empresas"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Insumos"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Equipamentos"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Fazendas"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Setores"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Talhoes"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Ordens de Corte de Muda"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Objetivos de Safra"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Perfis"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Funcion&#xe1;rios"/>
+                          <Data value="Manuten&#xe7;&#xe3;o de Ordem de Corte Produ&#xe7;&#xe3;o"/>
+                        </Column>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Apontamentos">
+                <Property name="tabTitle" type="java.lang.String" value="Apontamentos"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane4" alignment="0" pref="569" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane4" alignment="0" pref="459" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable4">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="2" rowCount="4">
+                        <Column editable="true" title="Transa&#xe7;&#xe3;o" type="java.lang.Object">
+                          <Data value="APT001"/>
+                          <Data value="APT002"/>
+                          <Data value="APT003"/>
+                          <Data value="APT004"/>
+                        </Column>
+                        <Column editable="true" title="Descri&#xe7;&#xe3;o" type="java.lang.Object">
+                          <Data value="Apontamento de Insumos"/>
+                          <Data value="Apontamento de Plantio"/>
+                          <Data value="Apontamento de Produ&#xe7;&#xe3;o"/>
+                          <Data value="Apontamento Manual"/>
+                        </Column>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Relat&#xf3;rios">
+                <Property name="tabTitle" type="java.lang.String" value="Relat&#xf3;rios"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="569" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="459" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="2" rowCount="2">
+                        <Column editable="true" title="Transa&#xe7;&#xe3;o" type="java.lang.Object">
+                          <Data value="REL001"/>
+                          <Data value="REL002"/>
+                        </Column>
+                        <Column editable="true" title="Descri&#xe7;&#xe3;o" type="java.lang.Object">
+                          <Data value="Relat&#xf3;rio de Empresas"/>
+                          <Data value="Relat&#xf3;rio de Produtividade"/>
+                        </Column>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

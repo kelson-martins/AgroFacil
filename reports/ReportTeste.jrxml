@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ReportTeste" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e118618d-98fa-4f15-b1fc-96f410a74eb3">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="EmpresaDe" class="java.lang.String"/>
+	<parameter name="EmpresaAte" class="java.lang.String"/>
+	<parameter name="NomeDe" class="java.lang.String"/>
+	<parameter name="NomeAte" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT * FROM EMPRESA WHERE ID BETWEEN $P{EmpresaDe} AND $P{EmpresaAte} AND DESCRICAO >= $P{NomeDe} AND DESCRICAO <= $P{NomeAte}]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="idMunicipio" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="descricao" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cep" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cgc" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="inscricaoEstadual" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="telefone" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fax" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="razaoSocial" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ativa" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="endereco" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="38" splitType="Stretch">
+			<staticText>
+				<reportElement x="17" y="15" width="182" height="20" uuid="ec44177d-14dd-45cb-9126-86bec50216bf"/>
+				<text><![CDATA[Relatório de Empresas]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="343" y="15" width="100" height="20" uuid="6d914544-ae77-4845-8497-380a5a78c473"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField pattern="h.mm a">
+				<reportElement x="443" y="15" width="100" height="20" uuid="9fb50cea-96b5-46dd-bd73-b58fd540cb0d"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="36" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="24" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="2" width="27" height="20" uuid="ae49b34c-4ef5-4f42-98d0-d759da68c1e8"/>
+				<text><![CDATA[Id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="4" width="184" height="20" uuid="f38fd07a-99e7-475a-bc6c-1ac8703fa5df"/>
+				<text><![CDATA[Razão Social]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="476" y="2" width="42" height="20" uuid="840336ca-3ca2-4abb-87dc-9bce9de967ba"/>
+				<text><![CDATA[Ativa ?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="363" y="4" width="90" height="20" uuid="3467a697-9193-4ebd-9d6d-7e7adc35b26c"/>
+				<text><![CDATA[Telefone]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="243" y="4" width="100" height="20" uuid="6c5d642b-76f7-42d2-8733-ed229ef94b0d"/>
+				<text><![CDATA[Endereço]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="24" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="3" width="27" height="20" uuid="f49a68ec-d6fd-42e6-927c-536b36882a04"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="42" y="3" width="184" height="20" uuid="65e93ea4-9c95-44ea-aa3c-8ecf7c2f9f73"/>
+				<textFieldExpression><![CDATA[$F{razaoSocial}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="476" y="4" width="42" height="20" uuid="f1309602-0eeb-4489-a88c-7ad3a1c12200"/>
+				<textFieldExpression><![CDATA[$F{ativa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="363" y="3" width="90" height="20" uuid="559e9c8e-4aae-42f4-a018-42088b4d2bef"/>
+				<textFieldExpression><![CDATA[$F{telefone}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="243" y="3" width="100" height="20" uuid="7d2210bd-906d-4f3c-990d-d62eb52bead4"/>
+				<textFieldExpression><![CDATA[$F{endereco}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
