@@ -1,5 +1,5 @@
 # agrofacil
-Farm Management Software<br />
+Agrofácil - Farm Management Software<br />
 Presented as a project for the Software Engineering course at PUC-PR.<br />
 
 Implemented on JAVA SE using components such as:
