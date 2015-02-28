@@ -1,5 +1,5 @@
 # agrofacil
-Farm Management Software presented at the Software Engineering course - Pontificia Universidade Católica do Paraná - .<br /><br/>
+Farm Management Software presented at the Software Engineering course - Pontificia Universidade Católica do Paraná - .<br />
 
 Implemented on JAVA SE using components such as:
 * JDesktopPane
