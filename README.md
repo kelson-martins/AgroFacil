@@ -1,6 +1,15 @@
-# agrofacil
+### agrofacil
 Agrofácil - Farm Management Software<br />
 Presented as a project for the Software Engineering course at PUC-PR.<br />
+
+### Authors
+Kelson Martins
+
+Leopoldo Corbani
+
+Marcio Oliveira
+
+### Details
 
 Implemented on JAVA SE using components such as:
 * JDesktopPane
